@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<title>D-mc NEXT</title>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+	<link rel="stylesheet" href="next.css">
+	<link rel="stylesheet" type="text/css" href="vegas.min.css" />
+
+	<link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP:700&display=swap" rel="stylesheet">
+
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+
+	<script script type="text/javascript" src="vegas.min.js"></script>
+	<script script type="text/javascript" src="function.js"></script>
+</head>
+
+<body>
+<!-- ハンバーガーメニュー -->
+	<div id="sp-menu">
+      <ul>
+        <li><a href="#mv">D-mc NEXT</a></li>
+        <li><a href="#concept">concept</a></li>
+        <li><a href="#wwa">who we are</a></li>
+        <li><a href="#cm">cm</a></li>
+        <li><a href="#activity">activity</a></li>
+        <li><a href="#contact">contact</a></li>
+        <li><a href="https://www.instagram.com/dmcnext_official/" target="_blank"><i class="fab fa-instagram"></i></a>
+        	<a href="https://www.facebook.com/RikkyoDmc/" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+      </ul>
+    </div>
+
+    <div id="hm-icon">
+      <a class="menu-trigger" href="#">
+        <span></span>
+        <span></span>
+        <span></span>
+      </a>
+    </div>
+
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+
+
+<!-- ページ内リンク スクロールアニメーション -->
+	<script>
+		$(function(){
+		   // #で始まるアンカーをクリックした場合に処理
+		   $('a[href^="#"]').click(function() {
+		      // スクロールの速度
+		      var speed = 400; // ミリ秒
+		      // アンカーの値取得
+		      var href= $(this).attr("href");
+		      // 移動先を取得
+		      var target = $(href == "#" || href == "" ? 'html' : href);
+		      // 移動先を数値で取得
+		      var position = target.offset().top;
+		      // スムーススクロール
+		      $('body,html').animate({scrollTop:position}, speed, 'swing');
+		      return false;
+		   });
+		});
+	</script>
+
+<!-- メインビジュアル -->
+	<div id="mv">
+		<img src="images/next-logo.png" width="168" alt="NEXTのロゴ">
+		<p>BL<span>U</span>E PR<span>I</span>DE</p>
+	</div>
+
+<!-- コンセプト文 -->
+	<div id="concept">
+		<section class="concept-text animation">
+			<p>
+			今の君は誰なんだ。</p>
+
+			<p>
+			周りの誰かのせいにして。</p>
+			<p>
+			個性を消して、他人に同調して、</p>
+			<p>
+			喉まで出た叫びを、飲み込んで。</p>
+			<p>
+			あの頃が一番楽しかったと、嘆く。</p>
+			<p>
+			何を気にして、</p>
+			<p>
+			何に囚われているんだ。</p>
+
+			<p>
+			ここは、しがらみなんてない。</p>
+			<p>
+			誰がいてもいい。何をしてもいい。</p>
+			<p>
+			疲れたら、戻ってくればいい。</p>
+
+			<p>
+			やりたいようにやろう。</p>
+			<p>
+			自由で、多様な海のように。</p>
+		</section>
+	</div>
+
+<!-- who we are -->
+	<div id="wwa" class="clearfix">
+		<div class="wwa-main">
+			<h2>who we are</h2>
+			<div class="wwa-line"></div>
+			<div class="wwa-main-text">
+				<p>
+				関東最大級のインカレダンスサークル、立教大学D-mcのOBOGで構成された団体。</p>
+				<p>
+				「家庭・職場に続く第三の居場所を作ることで、人生をより豊かにする」を目的として活動。</p>
+				<p>
+				活動内容は、総動員数4,000人規模のダンス公演、学生の就職活動支援、ダンスイベント運営、ボランティアなど様々。</p>
+				<p>
+				学生から社会人まで20代~40代の合計2400人程度の多種多様な人員で構成されている。</p>
+			</div>
+		</div>
+		<div class="wwa-sub">
+			<div class="wwa-sub-up"></div>
+			<div class="wwa-sub-down"></div>
+		</div>
+
+<!-- cm -->
+	</div>
+	<div id="cm">
+		<h2>cm</h2>
+		<div class="cm-line"></div>
+		<iframe width="800" height="450" src="https://www.youtube.com/embed/oUU49fODXFI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	</div>
+
+<!-- activity -->
+	<div id="activity">
+		<h2>activity</h2>
+		<div class="act-line"></div>
+		<div class="act-contents clearfix">
+			<div class="a-c-left">
+				<div class="over-rey1">
+				<h3>ダンス公演</h3>
+				<p>01</p>
+				</div>
+			</div>
+			<div class="a-c-right">
+				<div class="a-c-1">
+					<div class="over-rey2">
+					<h3>定期イベント</h3>
+					<p>02</p>
+					</div>
+				</div>
+				<div class="a-c-2">
+					<div class="over-rey2">
+					<h3>就活サポート</h3>
+					<p>03</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+<!-- contact -->
+	<div id="contact" class="clearfix">
+		<div class="contact-sub">
+			<div class="contact-sub-up"></div>
+			<div class="contact-sub-down"></div>
+		</div>
+		<div class="contact-main">
+				<h2>contact</h2>
+				<div class="contact-line"></div>
+				<div>
+					<i class="fas fa-chevron-down"></i>
+				</div>
+				<div>
+					<a href="mailto:dmcnext2019&#64;gmail.com?subject=【WEBサイトからのお問い合わせ】&amp;body=【氏名】%0d%0a %20 %0d%0a【所属】%0d%0a %20 %0d%0a【電話番号】%0d%0a %20 %0d%0a【内容】%0d%0a %20">
+						<i class="far fa-envelope fa-lg"></i>
+					</a>
+				</div>
+			</a>
+		</div>
+	</div>
+
+<!-- footer -->
+	<footer>
+		<div>
+			<a href="#mv"><i id="top-btn" class="fas fa-angle-up"></i></a>
+		</div>
+		<img src="images/next-logo.png" width="300" alt="NEXTのロゴ">
+		<p>copyright©︎ D-mc NEXT</p>
+	</footer>
+
+<!-- sidebar -->
+	<div id="sidebar" class="sidebar">
+		<ul>
+			<li><a href="#mv" class="0">D-mc NEXT</a></li>
+			<li><a href="#concept" class="1">concept</a></li>
+			<li><a href="#wwa" class="2">who we are</a></li>
+			<li><a href="#cm" class="3">cm</a></li>
+			<li><a href="#activity" class="4">activity</a></li>
+			<li><a href="#contact" class="5">contact</a></li>
+			<li><a href="https://www.instagram.com/dmcnext_official/" target="_blank"><i class="fab fa-instagram"></i></a></li>
+			<li><a href="https://www.facebook.com/RikkyoDmc/" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+		</ul>
+	</div>
+
+
+
+	<script src="hm.js"></script>
+	<script src="function.js"></script>
+ 	<script src="next.js"></script>
+
+</body>
+</html>
